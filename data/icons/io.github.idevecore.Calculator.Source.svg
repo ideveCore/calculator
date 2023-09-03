@@ -109,6 +109,20 @@
     <linearGradient id="linearGradient1278" gradientUnits="userSpaceOnUse" gradientTransform="translate(2,-22)" x1="50" y1="238" x2="74" y2="238" xlink:href="#linearGradient1697"/>
     <linearGradient id="linearGradient1280" gradientUnits="userSpaceOnUse" x1="65" y1="204" x2="65" y2="200" xlink:href="#linearGradient1245"/>
     <linearGradient id="linearGradient1154-1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.224489, 0, 0, 0.294737, -373.41684, 424.997014)" x1="88.595886" y1="-449.39401" x2="536.59589" y2="-449.39401" xlink:href="#linearGradient1154"/>
+    <linearGradient id="Gradient" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" style="stop-color:#62A0EA;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#1C71D8;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="alpha-to-white">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+    <g id="child-svg">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="16px" width="16px">
+        <path d="M48 128c-17.7 0-32 14.3-32 32s14.3 32 32 32H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H48zm0 192c-17.7 0-32 14.3-32 32s14.3 32 32 32H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H48z"/>
+      </svg>
+    </g>
+    <style bx:fonts="Nunito Sans">@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans%3Aital%2Cwght%400%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&amp;display=swap);</style>
+    <linearGradient id="linearGradient1154-2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.230041, 0, 0, 0.338348, -7.920734, 439.650604)" x1="88.595886" y1="-449.39401" x2="536.59589" y2="-449.39401" xlink:href="#linearGradient1154"/>
   </defs>
   <g id="layer1" style="display:inline" transform="matrix(1, 0, 0, 1, 8, -156.842453)">
     <g id="layer4" style="display:inline">
@@ -514,7 +528,22 @@
       </g>
     </g>
     <g style="display:inline;enable-background:new" id="g-2" transform="matrix(0.159087, 0, 0, 0.169895, 216.242203, 138.298248)"/>
-    <g style="display: inline;" id="g-1" transform="matrix(1.024732, 0, 0, 1.102682, 374.317474, -34.508045)">
+    <g transform="matrix(1.325214, 0, 0, 1.456936, 295.326111, -428.716614)" style="">
+      <rect x="-1034.171" y="-479.42" width="963.733" height="439.278" style="fill: rgb(255, 255, 255);" transform="matrix(1, 0, -0.004892, 1, 1115.029297, -13.449027)"/>
+      <g transform="matrix(1.76744, 0, 0, 1.513699, -422.456818, 340.011841)">
+        <rect width="170.777" height="181.376" fill="url(#Gradient)" ry="128" x="316.903" y="-495.816"/>
+        <g transform="matrix(6.831061, 0, 0, 7.255038, 347.643036, -463.168304)" filter="url(#alpha-to-white)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="16px" width="16px">
+            <path d="M48 128c-17.7 0-32 14.3-32 32s14.3 32 32 32H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H48zm0 192c-17.7 0-32 14.3-32 32s14.3 32 32 32H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H48z"/>
+          </svg>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -172.935501, 82.389534)">
+        <text style="fill: rgb(51, 51, 51); font-family: 'Nunito Sans'; font-size: 35.4787px; font-weight: 900; line-height: 55.3468px; white-space: pre;" transform="matrix(1.925396, 0, 0, 2.044898, 691.198792, -375.286987)">Calculator</text>
+        <text style="font-family: 'Nunito Sans'; font-size: 50px; font-weight: 600; white-space: pre;" transform="matrix(0.853883, 0, 0, 0.90688, 691.198792, -278.553619)">Simple and is objective</text>
+      </g>
+    </g>
+    <g style="display: inline;" id="g-1" transform="matrix(1.024732, 0, 0, 1.102682, 207.611053, -348.684082)">
       <rect ry="8" rx="8" y="202.944" x="-353.528" height="89.6" width="100.571" id="rect-1" style="display: inline; opacity: 1; vector-effect: none; fill-opacity: 1; stroke: none; stroke-width: 0.25; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0; stroke-opacity: 1; marker: none; paint-order: normal; fill: url('#linearGradient1154-1');"/>
       <rect style="display: inline; opacity: 1; vector-effect: none; fill-opacity: 1; stroke: none; stroke-width: 0.25; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0; stroke-opacity: 1; marker: none; paint-order: normal; fill: rgb(192, 188, 188); transform-origin: 2.24px 243.184px;" id="rect-2" width="100.571" height="89.632" x="-353.531" y="198.368" rx="8" ry="8"/>
       <g transform="matrix(1.142856, 0, 0, 1, 44.182716, -44.831989)">
@@ -548,6 +577,18 @@
       <g transform="matrix(0.555556, 0, 0, 0.6, 161.895294, 174.222183)">
         <path d="M4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2ZM7 12V14H9V12H7ZM7 16V18H9V16H7ZM11 12V14H13V12H11ZM11 16V18H13V16H11ZM15 12V18H17V12H15ZM7 6V10H17V6H7Z" style=""/>
       </g>
+    </g>
+    <rect ry="8" rx="8" y="184.742" x="12.459" height="102.857" width="103.058" id="rect-3" style="display: inline; opacity: 1; vector-effect: none; fill-opacity: 1; stroke: none; stroke-width: 0.25; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0; stroke-opacity: 1; marker: none; paint-order: normal; fill: url('#linearGradient1154-2');"/>
+    <g transform="matrix(1, 0, 0, 1, 79.597046, 108.685623)">
+      <path d="M 27.807 75.69 L -58.856 75.69 C -63.383 75.69 -67.054 79.64 -67.054 84.512 L -67.054 165.705 C -67.054 170.576 -63.383 174.526 -58.856 174.526 L 27.807 174.526 C 32.334 174.526 36.004 170.576 36.004 165.705 L 36.004 84.512 C 36.004 79.64 32.334 75.69 27.807 75.69 Z" fill="#C0BCBC"/>
+      <path d="M -58.744 75.69 L 27.694 75.69 C 29.898 75.69 32.012 76.515 33.571 77.982 C 35.129 79.45 36.005 81.44 36.005 83.515 L 36.005 125.091 L -67.054 125.091 L -67.054 83.515 C -67.054 81.44 -66.178 79.45 -64.62 77.982 C -63.061 76.515 -60.948 75.69 -58.744 75.69 Z" fill="#546167"/>
+      <path d="M -38.195 88.711 C -38.195 87.647 -39.325 86.712 -40.717 86.679 C -41.862 86.636 -43.213 87.647 -43.213 88.711 L -43.213 97.365 L -51.867 97.365 C -52.93 97.365 -54.003 98.851 -54.003 99.915 C -54.003 100.978 -52.93 102.314 -51.867 102.314 L -43.213 102.314 L -43.213 110.967 C -43.213 112.03 -41.99 113.114 -40.733 113.128 C -39.863 113.114 -38.195 112.03 -38.195 110.967 L -38.195 102.314 L -29.542 102.314 C -28.478 102.314 -27.381 100.938 -27.381 99.875 C -27.381 98.811 -28.478 97.365 -29.542 97.365 L -38.195 97.365 L -38.195 88.711 Z" fill="white" stroke="white" stroke-width="3"/>
+      <path d="M -15.525 75.69 L 27.694 75.69 C 29.898 75.69 32.012 76.515 33.571 77.982 C 35.129 79.45 36.005 81.44 36.005 83.515 L 36.005 125.091 L -15.525 125.091 L -15.525 75.69 Z" fill="#BBC0C2"/>
+      <path d="M 1.854 101.322 L 4.264 103.732 L 6.127 101.868 L 3.717 99.459 L 5.581 97.595 L 7.991 100.004 L 9.854 98.141 L 7.445 95.732 L 9.309 93.867 L 11.719 96.278 L 13.582 94.414 L 11.172 92.004 L 14.9 88.277 C 15.415 87.762 16.249 87.762 16.763 88.277 L 22.355 93.867 C 22.868 94.383 22.868 95.217 22.355 95.732 L 5.581 112.505 C 5.066 113.019 4.232 113.019 3.717 112.505 L -1.874 106.914 C -2.389 106.398 -2.389 105.564 -1.874 105.05 L 1.854 101.322 Z M 13.037 108.777 L 18.627 103.186 L 22.1 106.659 L 22.1 112.251 L 16.51 112.251 L 13.037 108.777 Z M 1.854 97.594 L -1.874 93.867 C -2.389 93.352 -2.389 92.518 -1.874 92.003 L 1.854 88.276 C 2.369 87.762 3.203 87.762 3.717 88.276 L 7.445 92.003 L 1.854 97.594 Z" stroke-width="2" style="fill: rgb(84, 97, 103); stroke: rgb(84, 97, 103);"/>
+      <path d="M -67.054 125.126 L 36.005 125.126 L 36.005 166.701 C 36.005 168.777 35.129 170.767 33.571 172.234 C 32.012 173.702 29.898 174.526 27.694 174.526 L -58.744 174.526 C -60.948 174.526 -63.061 173.702 -64.62 172.234 C -66.178 170.767 -67.054 168.777 -67.054 166.701 L -67.054 125.126 Z" fill="#546167"/>
+      <path d="M -67.054 125.126 L -15.525 125.126 L -15.525 174.526 L -58.744 174.526 C -60.948 174.526 -63.061 173.702 -64.62 172.234 C -66.178 170.767 -67.054 168.777 -67.054 166.701 L -67.054 125.126 Z" fill="#BBC0C2"/>
+      <path d="M -49.623 147.048 C -51.924 147.048 -53.789 144.872 -53.789 142.187 C -53.789 139.502 -51.924 137.326 -49.623 137.326 C -47.321 137.326 -45.456 139.502 -45.456 142.187 C -45.456 144.872 -47.321 147.048 -49.623 147.048 Z M -49.623 144.27 C -48.636 144.27 -47.837 143.338 -47.837 142.187 C -47.837 141.036 -48.636 140.104 -49.623 140.104 C -50.609 140.104 -51.408 141.036 -51.408 142.187 C -51.408 143.338 -50.609 144.27 -49.623 144.27 Z M -28.789 147.048 L -31.17 147.048 C -31.17 143.98 -33.302 141.493 -35.932 141.493 C -38.562 141.493 -40.694 143.98 -40.694 147.048 L -40.694 153.993 C -40.694 157.061 -38.562 159.548 -35.932 159.548 C -33.302 159.548 -31.17 157.061 -31.17 153.993 L -28.789 153.993 C -28.789 158.595 -31.987 162.326 -35.932 162.326 C -39.877 162.326 -43.075 158.595 -43.075 153.993 L -43.075 147.048 C -43.075 142.446 -39.877 138.715 -35.932 138.715 C -31.987 138.715 -28.789 142.446 -28.789 147.048 Z" fill="#546167" stroke="#546167" stroke-width="2"/>
+      <path d="M -0.338 141.532 C -1.403 141.532 -2.261 142.628 -2.261 144.083 C -2.261 145.533 -1.403 146.782 -0.338 146.782 L 20.692 146.782 C 21.756 146.782 22.739 145.605 22.739 144.155 C 22.739 142.699 21.88 141.532 20.816 141.532 L -0.338 141.532 Z M -0.338 152.873 C -1.403 152.873 -2.261 154.04 -2.261 155.496 C -2.261 156.946 -1.403 158.12 -0.338 158.12 L 20.816 158.12 C 21.88 158.12 22.739 156.946 22.739 155.496 C 22.739 154.04 21.88 152.873 20.816 152.873 L -0.338 152.873 Z" fill="white" stroke="white" stroke-width="3"/>
     </g>
   </g>
 </svg>
