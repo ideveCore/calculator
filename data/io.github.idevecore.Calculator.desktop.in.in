@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Calculator
+GenericName=Calculator
+TryExec=calculator
+Exec=calculator
+Comment=This is a simple calculator with many functions, but its main focus is objectivity.
+Icon=@icon@
+Terminal=false
+Type=Application
+Categories=Utility;GTK;GNOME;
+StartupNotify=true
+X-Purism-FormFactor=Workstation;Mobile;
+X-GNOME-SingleWindow=true

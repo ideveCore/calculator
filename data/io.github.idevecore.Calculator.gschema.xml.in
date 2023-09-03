@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="calculator">
+  <schema id="@app_id@" path="/io/github/idevecore/Calculator/">
+    <key type="s" name="color-scheme">
+      <choices>
+        <choice value="auto" />
+        <choice value="light" />
+        <choice value="dark" />
+      </choices>
+      <default>"auto"</default>
+    </key>
+  </schema>
+</schemalist>

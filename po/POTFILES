@@ -1,0 +1,6 @@
+data/io.github.idevecore.Calculator.desktop.in
+data/io.github.idevecore.Calculator.appdata.xml.in
+data/io.github.idevecore.Calculator.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/github/idevecore/Calculator">
+    <file compressed="true" alias="style.css">assets/styles.css</file>
+    <file preprocess="xml-stripblanks">window.ui</file>
+    <file preprocess="xml-stripblanks">components/shortcuts/shortcuts.ui</file>
+    <file preprocess="xml-stripblanks">components/theme_selector/theme_selector.ui</file>
+  </gresource>
+</gresources>

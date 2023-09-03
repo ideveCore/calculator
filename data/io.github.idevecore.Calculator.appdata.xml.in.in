@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>@app_id@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Calculator</name>
+  <summary>A simple calculator with many functions.</summary>
+  <description>
+    <p>This is a simple calculator with many functions, but its main focus is objectivity..</p>
+  </description>
+  <releases>
+    <release version="1.0.0" date="">
+      <description>
+        <p>Calculator 1.0.0: Application launch</p>
+      </description>
+    </release>
+  </releases>
+</component>
