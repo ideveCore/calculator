@@ -11,6 +11,8 @@ gnome = import('gnome')
 base_id = 'io.github.idevecore.Calculator'
 pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
 moduledir = join_paths(pkgdatadir, 'calculator')
+prefix = get_option('prefix')
+datadir = prefix / get_option('datadir')
 
 if get_option('profile') == 'development'
   profile = 'Devel'

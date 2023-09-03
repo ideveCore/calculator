@@ -58,5 +58,6 @@ install_data(sources, install_dir: moduledir)
 # ===== Install components sources =====
 install_subdir('components', install_dir: moduledir)
 
+subdir('assets/icons')
 # ===== Install assets sources =====
 install_subdir('assets', install_dir: moduledir)
