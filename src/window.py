@@ -26,7 +26,6 @@ from .components import ShortcutsWindow, ThemeSelector
 class CalculatorWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'CalculatorWindow'
 
-    label = Gtk.Template.Child()
     main_menu = Gtk.Template.Child()
 
     def __init__(self, **kwargs):

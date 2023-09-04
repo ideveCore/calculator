@@ -36,6 +36,7 @@ class CalculatorApplication(Adw.Application):
             application_id=APP_ID,
             flags=Gio.ApplicationFlags.DEFAULT_FLAGS
         )
+        self.set_resource_base_path(RES_PATH)
         self._setup_gactions()
         
     def _setup_gactions(self):
