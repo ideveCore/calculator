@@ -44,9 +44,19 @@
 }
 
 /* Ideve Core styles defination */
-.ic-anim-btn {
-  transition: border-radius linear 200ms;
+.pd {
+  padding: 1em;
 }
-.ic-anim-btn:hover {
-  border-radius: 50%;
+.pd-t {
+  padding-top: 1em;
 }
+.pd-b {
+  padding-bottom: 1em;
+}
+.pd-s {
+  padding-left: 1em;
+}
+.pd-e {
+  padding-right: 1em;
+}
+

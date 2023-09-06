@@ -4,6 +4,7 @@ using Adw 1;
 template $CalculatorWindow : Adw.ApplicationWindow {
   default-width: 450;
   default-height: 550;
+  width-request: 350;
   title: _("Calculator");
 
   Adw.Leaflet main_leaflet {
@@ -25,315 +26,251 @@ template $CalculatorWindow : Adw.ApplicationWindow {
           Gtk.ScrolledWindow {
             hexpand: true;
             vexpand: true;
-            Gtk.ListBox list_box {
-              styles ["boxed-list"]
+            Gtk.FlowBox {
+              min-children-per-line: 1;
+              max-children-per-line: 3;
+              margin-start: 10;
+              margin-end: 10;
+              margin-bottom: 70;
+              margin-top: 10;
+              homogeneous: true;
+              column-spacing: 10;
+              row-spacing: 10;
+              halign: fill;
               valign: start;
-              margin-top: 12;
-              margin-bottom: 85;
-              margin-start: 12;
-              margin-end: 12;
               selection-mode: none;
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
+              Gtk.FlowBoxChild {
+                focusable: false;
+                overflow: hidden;
+                Adw.PreferencesGroup  {
+                  Gtk.ListBox {
+                    styles ["boxed-list"]
+                    selection-mode: none;
+                    valign: center;
+                    Adw.ActionRow {
+                      width-request: 300;
+                      height-request: 78;
+                      [prefix]
+                      Gtk.Box {
+                        margin-start: 2;
+                        margin-end: 2;
+                        Gtk.Image {
+                          icon-name: 'wallet3-symbolic';
+                          pixel-size: 22;
+                        }
+                      }
+                      title: _('Cabuloso');
+                      subtitle: _('Cabuloso');
+                      Gtk.Image {
+                        icon-name: 'right-symbolic';
+                      }
+                    }
                   }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
                 }
               }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
+              Gtk.FlowBoxChild {
+                focusable: false;
+                Gtk.ListBox {
+                  styles ["boxed-list"]
+                  valign: center;
+                  selection-mode: none;
+                  Adw.ActionRow {
+                    width-request: 300;
+                    height-request: 78;
+                    [prefix]
+                    Gtk.Box {
+                      margin-start: 2;
+                      margin-end: 2;
+                      Gtk.Image {
+                        icon-name: 'wallet3-symbolic';
+                        pixel-size: 22;
+                      }
+                    }
+                    title: _('Cabuloso');
+                    subtitle: _('Cabuloso');
+                    Gtk.Image {
+                      icon-name: 'right-symbolic';
+                    }
                   }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
                 }
               }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
+              Gtk.FlowBoxChild {
+                focusable: false;
+                overflow: hidden;
+                Adw.PreferencesGroup  {
+                  Gtk.ListBox {
+                    styles ["boxed-list"]
+                    selection-mode: none;
+                    valign: center;
+                    Adw.ActionRow {
+                      width-request: 300;
+                      height-request: 78;
+                      [prefix]
+                      Gtk.Box {
+                        margin-start: 2;
+                        margin-end: 2;
+                        Gtk.Image {
+                          icon-name: 'wallet3-symbolic';
+                          pixel-size: 22;
+                        }
+                      }
+                      title: _('Cabuloso');
+                      subtitle: _('Cabuloso');
+                      Gtk.Image {
+                        icon-name: 'right-symbolic';
+                      }
+                    }
                   }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
                 }
               }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
+              Gtk.FlowBoxChild {
+                focusable: false;
+                Gtk.ListBox {
+                  styles ["boxed-list"]
+                  valign: center;
+                  selection-mode: none;
+                  Adw.ActionRow {
+                    width-request: 300;
+                    height-request: 78;
+                    [prefix]
+                    Gtk.Box {
+                      margin-start: 2;
+                      margin-end: 2;
+                      Gtk.Image {
+                        icon-name: 'wallet3-symbolic';
+                        pixel-size: 22;
+                      }
+                    }
+                    title: _('Cabuloso');
+                    subtitle: _('Cabuloso');
+                    Gtk.Image {
+                      icon-name: 'right-symbolic';
+                    }
                   }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
                 }
               }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
+              Gtk.FlowBoxChild {
+                focusable: false;
+                overflow: hidden;
+                Adw.PreferencesGroup  {
+                  Gtk.ListBox {
+                    styles ["boxed-list"]
+                    selection-mode: none;
+                    valign: center;
+                    Adw.ActionRow {
+                      width-request: 300;
+                      height-request: 78;
+                      [prefix]
+                      Gtk.Box {
+                        margin-start: 2;
+                        margin-end: 2;
+                        Gtk.Image {
+                          icon-name: 'wallet3-symbolic';
+                          pixel-size: 22;
+                        }
+                      }
+                      title: _('Cabuloso');
+                      subtitle: _('Cabuloso');
+                      Gtk.Image {
+                        icon-name: 'right-symbolic';
+                      }
+                    }
                   }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
                 }
               }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
+              Gtk.FlowBoxChild {
+                focusable: false;
+                Gtk.ListBox {
+                  styles ["boxed-list"]
+                  valign: center;
+                  selection-mode: none;
+                  Adw.ActionRow {
+                    width-request: 300;
+                    height-request: 78;
+                    [prefix]
+                    Gtk.Box {
+                      margin-start: 2;
+                      margin-end: 2;
+                      Gtk.Image {
+                        icon-name: 'wallet3-symbolic';
+                        pixel-size: 22;
+                      }
+                    }
+                    title: _('Cabuloso');
+                    subtitle: _('Cabuloso');
+                    Gtk.Image {
+                      icon-name: 'right-symbolic';
+                    }
                   }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
                 }
               }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
+              Gtk.FlowBoxChild {
+                focusable: false;
+                overflow: hidden;
+                Adw.PreferencesGroup  {
+                  Gtk.ListBox {
+                    styles ["boxed-list"]
+                    selection-mode: none;
+                    valign: center;
+                    Adw.ActionRow {
+                      width-request: 300;
+                      height-request: 78;
+                      [prefix]
+                      Gtk.Box {
+                        margin-start: 2;
+                        margin-end: 2;
+                        Gtk.Image {
+                          icon-name: 'wallet3-symbolic';
+                          pixel-size: 22;
+                        }
+                      }
+                      title: _('Cabuloso');
+                      subtitle: _('Cabuloso');
+                      Gtk.Image {
+                        icon-name: 'right-symbolic';
+                      }
+                    }
                   }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
                 }
               }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
+              Gtk.FlowBoxChild {
+                focusable: false;
+                Gtk.ListBox {
+                  styles ["boxed-list"]
+                  valign: center;
+                  selection-mode: none;
+                  Adw.ActionRow {
+                    width-request: 300;
+                    height-request: 78;
+                    [prefix]
+                    Gtk.Box {
+                      margin-start: 2;
+                      margin-end: 2;
+                      Gtk.Image {
+                        icon-name: 'wallet3-symbolic';
+                        pixel-size: 22;
+                      }
+                    }
+                    title: _('Cabuloso');
+                    subtitle: _('Cabuloso');
+                    Gtk.Image {
+                      icon-name: 'right-symbolic';
+                    }
                   }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
-                }
-              }
-
-              Adw.ActionRow {
-                [prefix]
-                Gtk.Box {
-                  margin-start: 2;
-                  margin-end: 2;
-                  Gtk.Image {
-                    icon-name: 'wallet3-symbolic';
-                    pixel-size: 22;
-                  }
-                }
-                title: _('Cabuloso');
-                subtitle: _('Cabuloso');
-                Gtk.Image {
-                  icon-name: 'right-symbolic';
                 }
               }
             }
           }
           [overlay]
           Gtk.Button {
-            styles ['suggested-action', 'ic-anim-btn']
-            halign: end;
+            styles ['suggested-action', 'pill', 'pd']
+            halign: center;
             valign: end;
-            margin-end: 20;
-            margin-bottom: 20;
-            height-request: 60;
-            width-request: 60;
-            icon-name: 'accessories-calculator-symbolic';
+            margin-bottom: 10;
+            Adw.ButtonContent {
+              label: _('Calculator');
+              icon-name: 'accessories-calculator-symbolic';
+            }
           }
         }
       };
